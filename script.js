@@ -9,7 +9,7 @@ myGame.createUserAction({
 })
 
 document.getElementById('input').addEventListener('keyup', function(e) {
-	if (e.code == 'Enter') { // if the user presses enter
+	if (e.code == 'Enter') { // if the user presses enter 
 		let userInput = document.getElementById('input').value
 		myGame.message(userInput)
 		document.getElementById('conversation').innerHTML += '<p>170.141.250.184: ' + userInput + '</p>'
